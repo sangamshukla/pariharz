@@ -1,10 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rn0lcrnzyu6k/ 
-    - /bin/cp -r * $DEPLOYPATH #copy all from root
-    - /bin/cp -r ./public/* $DEPLOYPATH/public_html/public/
-    - /bin/cp ./public/js/*.js $DEPLOYPATH/public_html/public/js
-    - /bin/cp ./public/asset/js/*.js $DEPLOYPATH/public_html/public/asset/js
-    - /bin/cp ./public/asset/css/*.css $DEPLOYPATH/public_html/public/asset/css
-    - /bin/cp ./public/css/*.css $DEPLOYPATH/public_html/public/css
+    - export DEPLOYPATH=/home/rn0lcrnzyu6k/public_html/public/
+    - /bin/cp -R asset $DEPLOYPATH
