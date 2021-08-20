@@ -54,7 +54,7 @@
 
                                         <li><a href="#">About us</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">About us</a></li>
+                                            <li><a href=" {{route('about')}} ">About us</a></li>
                                             <li><a href="#">Meet Our Team</a></li>
                                             <li><a href="#">FAQ’s</a></li>
                                             <li><a href="#">Client Feedback</a></li>
@@ -101,7 +101,7 @@
                                         </ul>
                                         </li>-->
                                     
-                                        <li><a href="contact.html">Contact us</a></li>
+                                        <li><a href="{{route('contact')}}">Contact us</a></li>
                                     </ul><!-- End of .menuzord-menu -->
                                 </nav> <!-- End of #main_menu -->
                             </div>

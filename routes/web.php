@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/','index');
+Route::view('about','about')->name('about');
+Route::view('account','account')->name('account');
+Route::view('contact','contact')->name('contact');
+Route::view('our-projects','our-projects')->name('our-projects');
 require __DIR__.'/auth.php';

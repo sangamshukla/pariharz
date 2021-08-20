@@ -29,7 +29,7 @@
             <span class="fa fa-angle-up"></span>
         </button>
         <!-- pre loader  -->
-        <div class="preloader"></div>
+        {{-- <div class="preloader"></div>   --}}
  <!-- jQuery js -->
  <script src="{{asset('asset/js/jquery.js')}}"></script>
  <!-- bootstrap js -->
@@ -71,6 +71,9 @@
  <script src="{{asset('asset/js/jquery.countTo.js')}}"></script>
  <script src="{{asset('asset/js/jquery.flexslider.js')}}"></script>
  <script src="{{asset('asset/js/imagezoom.js')}}"></script> 
+ <script src="{{asset('asset/js/bxslider.js')}}"></script> 
+ <script src="{{asset('asset/js/jquery.magnific-popup.min.js')}}"></script> 
+	<script src="{{asset('asset/js/isotope.js')}}"></script>	
  <script id="map-script" src="{{asset('asset/js/default-map.js')}}"></script>
  <script src="{{asset('asset/js/custom.js')}}"></script>
 
