@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rn0lcrnzyu6k/public_html/public/
-    - /bin/cp -R asset $DEPLOYPATH
+    - /bin/cp -R /home/rn0lcrnzyu6k/pariharz/public/asset $DEPLOYPATH
