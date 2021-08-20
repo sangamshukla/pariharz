@@ -3,7 +3,7 @@
                     <div class="container">
                         <div class="clearfix">
                             <div class="col-left float_left">
-                                <div id="polyglotLanguageSwitcher" class="">
+                                {{-- <div id="polyglotLanguageSwitcher" class="">
                                     <form action="#">
                                         <select id="polyglot-language-options">
                                             <option id="en" value="en" selected>English</option>
@@ -13,7 +13,7 @@
                                             <option id="es" value="es">Spanish</option>
                                         </select>
                                     </form>
-                                </div>
+                                </div> --}}
 
                                 <ul class="top-bar-info">
                                     <li><i class="icon-technology"></i>Phone: (123) 0200 12345</li>
